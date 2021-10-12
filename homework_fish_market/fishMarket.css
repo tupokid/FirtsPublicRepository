@@ -1,0 +1,22 @@
+#top{
+    background-color: #176c17;
+    font-size: 25px;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 1% ;
+    color: white;
+    font-family: DialogInput;
+    text-align: match-parent;
+    height: 60px;
+}
+
+#left{
+    background-color:aqua;
+    margin-left: 5%;
+    margin-right: 72%;
+    margin-top: 15px;
+    height: 600px;
+
+
+
+}
