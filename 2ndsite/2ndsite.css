@@ -1,0 +1,32 @@
+#father{
+    display: grid;
+    background-color: aqua;
+    border: 1px black solid;
+    height: 730px;
+    width: 100%;
+    grid-template-columns: 15% auto;
+    grid-template-rows: 15%  auto 15%;
+    grid-template-areas:
+            "area_1 area_1"
+            ". ."
+            "area_4 area_4";
+}
+
+.father_item{
+    background-color: white;
+    border: 1px solid red;
+}
+
+#father_item_1{
+    grid-area: area_1;
+
+}
+#father_item_2{
+
+}
+#father_item_3{
+
+}
+#father_item_4{
+    grid-area: area_4;
+}
