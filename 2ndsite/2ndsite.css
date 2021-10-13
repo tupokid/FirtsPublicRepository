@@ -4,8 +4,8 @@
     border: 1px black solid;
     height: 730px;
     width: 100%;
-    grid-template-columns: 15% auto;
-    grid-template-rows: 15%  auto 15%;
+    grid-template-columns: 21% auto;
+    grid-template-rows: 10%  auto 5%;
     grid-template-areas:
             "area_1 area_1"
             ". ."
@@ -19,7 +19,6 @@
 
 #father_item_1{
     grid-area: area_1;
-
 }
 #father_item_2{
 
@@ -29,4 +28,58 @@
 }
 #father_item_4{
     grid-area: area_4;
+}
+.hat{
+    background-color: darkolivegreen;
+    padding-bottom: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+#left_menu{
+    background-color: #d1d1d1;
+    margin-left: 80px;
+    height: 619px;
+    margin-top: 10px;
+}
+#central_content1{
+    background-color: greenyellow;
+    margin-top: 10px;
+    margin-right: 80px;
+    height: 620px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 95px 65px 67px;
+    grid-template-areas:
+            "Carea_1 Carea_1 Carea_1"
+            "Carea_2 Carea_3 Carea_3"
+            "Carea_4 Carea_4 Carea_4";
+}
+.central_grid2{
+    background-color: darkolivegreen;
+    border: 1px purple solid;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 50% 50%;
+}
+.central{
+    border: 1px purple solid;
+}
+#central_grid_item_1{
+    grid-area: Carea_1;
+    border: 1px red solid;
+}
+#central_grid_item_2{
+    grid-area: Carea_2;
+    border: 1px red solid;
+}
+#central_grid_item_3{
+    grid-area: Carea_3;
+    border: 1px red solid;
+}
+#central_grid_item_4{
+    border: 1px red solid;
+    grid-area: Carea_4;
 }
