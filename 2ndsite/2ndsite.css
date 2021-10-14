@@ -1,7 +1,6 @@
 #father{
     display: grid;
     background-color: aqua;
-    border: 1px black solid;
     height: 730px;
     width: 100%;
     grid-template-columns: 21% auto;
@@ -14,7 +13,6 @@
 
 .father_item{
     background-color: white;
-    border: 1px solid red;
 }
 
 #father_item_1{
@@ -30,7 +28,7 @@
     grid-area: area_4;
 }
 .hat{
-    background-color: darkolivegreen;
+    background-color: #00693E;
     padding-bottom: 10px;
     margin-left: 80px;
     margin-right: 80px;
@@ -59,7 +57,7 @@
     margin-top: 10px;
 }
 #central_content1{
-    background-color: greenyellow;
+    background-color: white;
     margin-top: 10px;
     margin-right: 80px;
     height: 225px;
@@ -78,27 +76,22 @@
 
 }
 .central{
-    border: 1px purple solid;
-
 }
 #central_grid_item_1{
     grid-area: Carea_1;
-    border: 1px red solid;
 }
 #central_grid_item_2{
     grid-area: Carea_2;
-    border: 1px red solid;
-
+    background-color: #d1d1d1;
+    border-right: 5px white solid;
 }
 #central_grid_item_3{
     grid-area: Carea_3;
-    border: 1px red solid;
+    background-color: #d1d1d1;
 }
 #central_grid_item_4{
-    border: 1px red solid;
     grid-area: Carea_4;
 }
-
 #central_content2{
     height: 392px ;
     background-color: white;
@@ -108,7 +101,6 @@
     grid-template-rows: 30% 30%;
     grid-gap: 10px;
 }
-
 #gri_con{
     display: grid;
     background-color: aqua;
