@@ -1,10 +1,9 @@
 #father{
     display: grid;
-    background-color: aqua;
     height: 730px;
     width: 100%;
     grid-template-columns: 21% auto;
-    grid-template-rows: 10%  auto 5%;
+    grid-template-rows: 10%  auto 10%;
     grid-template-areas:
             "area_1 area_1"
             ". ."
@@ -17,15 +16,20 @@
 
 #father_item_1{
     grid-area: area_1;
+    background-image: url("images/fish_fon.jpg");
 }
 #father_item_2{
+    background-image: url("images/fish_fon.jpg");
 
 }
 #father_item_3{
-
+    background-image: url("images/fish_fon.jpg");
+    padding-top: 5px;
+    margin-bottom: px;
 }
 #father_item_4{
     grid-area: area_4;
+    background-image: url("images/fish_fon.jpg");
 }
 .hat{
     background-color: #00693E;
@@ -43,6 +47,7 @@
 #freez{
     padding-left: 15px;
     color: blue;
+    padding-top: 5px;
 }
 #left_menu_text{
     color: black;
@@ -51,7 +56,7 @@
     padding-top: 0px;
 }
 #left_menu{
-    background-color: #d1d1d1;
+    background-color: #F1EEEE;
     margin-left: 80px;
     height: 619px;
     margin-top: 10px;
@@ -72,7 +77,7 @@
 }
 
 .central_grid{
-
+margin-left: 15px;
 
 }
 .central{
@@ -82,12 +87,12 @@
 }
 #central_grid_item_2{
     grid-area: Carea_2;
-    background-color: #d1d1d1;
+    background-color: #F1EEEE;
     border-right: 5px white solid;
 }
 #central_grid_item_3{
     grid-area: Carea_3;
-    background-color: #d1d1d1;
+    background-color: #F1EEEE;
 }
 #central_grid_item_4{
     grid-area: Carea_4;
@@ -103,8 +108,7 @@
 }
 #gri_con{
     display: grid;
-    background-color: aqua;
-    border: 1px black solid;
+    background-color: #F1EEEE;
     grid-template-columns: 50% 50%;
     grid-template-rows: auto auto;
     grid-template-areas: "gi1 ."
@@ -118,25 +122,27 @@
 
 }
 .gridin{
-    border: purple 1px solid;
+    margin-left: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .central_grid2{
-    background-color: #d1d1d1;
+    background-color: #F1EEEE;
     margin-top: 1%;
-    margin-left: 1%;
-    margin-right: 1%;
+    margin-left: 15px;
 }
 
 .zagolovok{
     height: 100%;
     width: 100%;
     text-align: justify;
-    margin-left: 10%;
+    margin-left:15px;
+
 
 }
 #h1{
-    font-size: 150%;
+    font-size: 175%;
 
 }
 #h2{
@@ -148,14 +154,58 @@
 }
 
 #image_block{
-    background-color: greenyellow;
+    background-color: #D8CFCF;
     width: 100%;
     height: 100%;
+    background-image: url("images/палтус.jpg");
 }
 
 #seafood{
-    background-color: purple;
+    background-color:
     font-family: Arial;
     width: 80%;
     margin-left: 5%;
+}
+
+#kupit\'{
+    color: black;
+    background-color: #D8CFCF;
+    margin-left: 5px;
+}
+
+#gi2{
+    margin-left: 9px;
+}
+p{
+
+}
+
+#karzina{
+    bottom: 1px;
+    height: 50px;
+    margin-top: 142%;
+}
+
+#basket{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 51px;
+}
+
+.basket_item{
+}
+
+#basket_item_1{
+    background-image: url("images/image.png.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#basket_link{
+    font-style: oblique;
+    position: center;
+    margin-right: 20%;
+}
+
+#back_fon{
+    background-image: url("images/fish_fon.jpg");
 }
